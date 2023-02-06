@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ee9c4503-6985-49b9-8b52-d2c8d7df55f3": {
+      "ProjectGuid": "ee9c4503-6985-49b9-8b52-d2c8d7df55f3",
+      "DisplayName": "ENB.Restaurant.Event.Bookings.Entities",
+      "ColorIndex": 0
+    },
+    "595d06b4-281f-46c3-a8eb-78b25bcaa30d": {
+      "ProjectGuid": "595d06b4-281f-46c3-a8eb-78b25bcaa30d",
+      "DisplayName": "ENB.Restaurant.Event.Bookings.Infrastructure",
+      "ColorIndex": 1
+    },
+    "1b4dafb0-1393-45ef-97fb-2782bb95a40e": {
+      "ProjectGuid": "1b4dafb0-1393-45ef-97fb-2782bb95a40e",
+      "DisplayName": "ENB.Restaurant.Event.Bookings.EF",
+      "ColorIndex": 2
+    },
+    "557e5eb9-4558-4186-8903-3581536d4a99": {
+      "ProjectGuid": "557e5eb9-4558-4186-8903-3581536d4a99",
+      "DisplayName": "ENB.Restaurant.Event.Bookings.MVC",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

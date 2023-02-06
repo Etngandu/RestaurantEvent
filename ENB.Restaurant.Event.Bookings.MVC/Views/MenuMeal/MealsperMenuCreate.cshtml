@@ -1,0 +1,49 @@
+﻿@model ENB.Restaurant.Event.Bookings.MVC.Models.CreateAndEditMenuMeal;
+@{
+    ViewData["Title"] = "CreateCasesperLawyer";
+}
+
+
+<div class="alert alert-dismissible alert-success">
+    <h2>Create A Meal linked to Menu: @ViewBag.Message</h2>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="MealsperMenuCreate" asp-route-Menuid="@ViewBag.Idmenu">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="form-group">
+                        <label asp-for="Meal" class="control-label card-header col-md-12" style="margin-bottom:5px"></label>
+                        <select id="drpEmpList" class="form-control" asp-for="MealId" asp-items="@(new SelectList(Model.ListMeal, "Value", "Text"))">
+                            <option value="">--Select--</option>
+                        </select>
+                        <span asp-validation-for="MealId" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row" style="margin-top:300px">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <a asp-action="MealsperMenuList" asp-route-MenuId="@ViewBag.Idmenu" class="btn btn-secondary btn-block col-md-4">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

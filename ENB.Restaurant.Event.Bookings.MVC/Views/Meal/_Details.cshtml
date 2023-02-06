@@ -1,0 +1,37 @@
+﻿@model ENB.Restaurant.Event.Bookings.MVC.Models.DisplayMeal
+
+<div>    
+    <dl class="row">        
+        <dt class="col-sm-2 card-header">
+            @Html.DisplayNameFor(model => model.MealName)
+        </dt>
+        <dd class="col-sm-10 card-header">
+            @Html.DisplayFor(model => model.MealName)
+        </dd>
+        <dt class="col-sm-2 card-header" style="margin-top:5px">
+            @Html.DisplayNameFor(model => model.Dateofmeal)
+        </dt>
+        <dd class="col-sm-10 card-header" style="margin-top:5px">
+            @Html.DisplayFor(model => model.Dateofmeal)
+        </dd>        
+        <dt class="col-sm-2 card-header" style="margin-top:5px">
+            @Html.DisplayNameFor(model => model.Other_MealDetail)
+        </dt>
+        <dd class="col-sm-10 card-header" style="margin-top:5px">
+            @Html.DisplayFor(model => model.Other_MealDetail)
+        </dd>        
+        <dt class="col-sm-2 card-header" style="margin-top:5px">
+            @Html.DisplayNameFor(model => model.DateCreated)
+        </dt>
+        <dd class="col-sm-10 card-header" style="margin-top:5px">
+            @Html.DisplayFor(model => model.DateCreated)
+        </dd>
+        <dt class="col-sm-2 card-header" style="margin-top:5px">
+            @Html.DisplayNameFor(model => model.DateModified)
+        </dt>
+        <dd class="col-sm-10 card-header" style="margin-top:5px">
+            @Html.DisplayFor(model => model.DateModified)
+        </dd>
+    </dl>
+</div>
+

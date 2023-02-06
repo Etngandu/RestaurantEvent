@@ -1,0 +1,265 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ENB.Restaurant.Event.Bookings.MVC
+build_property.RootNamespace = ENB.Restaurant.Event.Bookings.MVC
+build_property.ProjectDir = C:\Devsource\ENB.Restaurant.Event.Bookings\ENB.Restaurant.Event.Bookings.MVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Devsource\ENB.Restaurant.Event.Bookings\ENB.Restaurant.Event.Bookings.MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Addresses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Addresses/Redirect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXFJlZGlyZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingEvent/CreateCal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0V2ZW50XENyZWF0ZUNhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingEvent/CreateEvent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0V2ZW50XENyZWF0ZUV2ZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingEvent/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0V2ZW50XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingEvent/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0V2ZW50XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingEvent/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0V2ZW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingEvent/EditEvent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0V2ZW50XEVkaXRFdmVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingEvent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0V2ZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingEvent/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0V2ZW50XExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingEvent/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0V2ZW50XF9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingNote/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ05vdGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingNote/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ05vdGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingNote/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ05vdGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingNote/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ05vdGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingNote/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ05vdGVcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/BookingNote/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ05vdGVcX0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Customer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Customer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Customer/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcX0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Meal/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Meal/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Meal/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Meal/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Meal/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Meal/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbFxfRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/MenuMeal/MealsperMenuCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU1lYWxcTWVhbHNwZXJNZW51Q3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/MenuMeal/MealsperMenuDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU1lYWxcTWVhbHNwZXJNZW51RGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/MenuMeal/MealsperMenuDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU1lYWxcTWVhbHNwZXJNZW51RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/MenuMeal/MealsperMenuEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU1lYWxcTWVhbHNwZXJNZW51RWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/MenuMeal/MealsperMenuList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU1lYWxcTWVhbHNwZXJNZW51TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/MenuMeal/MenusperMealCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU1lYWxcTWVudXNwZXJNZWFsQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/MenuMeal/MenusperMealDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU1lYWxcTWVudXNwZXJNZWFsRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/MenuMeal/MenusperMealDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU1lYWxcTWVudXNwZXJNZWFsRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/MenuMeal/MenusperMealEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU1lYWxcTWVudXNwZXJNZWFsRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/MenuMeal/MenusperMealList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU1lYWxcTWVudXNwZXJNZWFsTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Menu/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Menu/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Menu/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Menu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Menu/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxfRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Shared/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRoTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Staff/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Staff/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Staff/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Staff/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Staff/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Staff/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcX0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Devsource/ENB.Restaurant.Event.Bookings/ENB.Restaurant.Event.Bookings.MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-w6rln7yqau

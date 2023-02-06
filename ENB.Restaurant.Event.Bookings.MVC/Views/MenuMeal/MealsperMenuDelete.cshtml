@@ -1,0 +1,28 @@
+﻿@model ENB.Restaurant.Event.Bookings.MVC.Models.DisplayMenuMeal
+
+<div class="alert alert-dismissible alert-danger">
+    <h2>Do you Really want to remove this  Meal linked to Menu: @ViewBag.Message ?</h2>
+</div>
+<div class="row">
+
+    <dl class="row">   
+        <dt class="col-sm-2 card-header">
+            @Html.DisplayNameFor(model => model.MealName)
+        </dt>
+        <dd class="col-sm-10 card-header">
+            @Html.DisplayFor(model => model.MealName)
+        </dd>
+    </dl>
+    <div class="row" style="margin-top:300px">
+        <div class="col-md-6">
+            <div class="form-group">                
+                <a asp-action="MealsperMenuedit" asp-route-MenuId="@ViewBag.Idmenu" asp-route-MealId="@ViewBag.Idmeal" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <a asp-action="MealsperMenuList" asp-route-MenuId="@ViewBag.Idmenu" class="btn btn-secondary btn-block col-md-4">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>

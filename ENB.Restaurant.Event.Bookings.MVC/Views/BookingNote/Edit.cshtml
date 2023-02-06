@@ -1,0 +1,47 @@
+﻿@model ENB.Restaurant.Event.Bookings.MVC.Models.CreateAndEditBookingNote
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="alert alert-primary" role="alert">
+    <h2><strong>Edit Booking Note customer @ViewBag.Message</strong></h2>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Edit" asp-route-CustomerId="@ViewBag.Idcustm" asp-route-BookingId="@ViewBag.Idbook" asp-route-id="@ViewBag.Id">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="card-header" style="margin:10px 0 10px 0">
+                            <label asp-for="Details_of_notes" class="control-label"></label>
+                        </div>
+                        <textarea asp-for="Details_of_notes" type="text" class="form-control" rows="5" autofocus></textarea>
+                        <span asp-validation-for="Details_of_notes" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:10px">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <a asp-action="List" asp-route-CustomerId="@ViewBag.Idcustm" asp-route-BookingId="@ViewBag.Idbook" class="btn btn-secondary btn-block col-md-4">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

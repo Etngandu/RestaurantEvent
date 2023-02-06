@@ -1,0 +1,90 @@
+﻿
+<div class="alert alert-primary" role="alert">
+    <h2><strong>List Meal Menu : @ViewBag.Message <i class="fa-solid fa-wheat-awn"></i></strong></h2>
+</div>
+
+<a asp-action="MealsperMenuCreate" id="addCustomer" asp-controller="MenuMeal" asp-route-MenuId="@ViewBag.Idmenu" class="btn btn-success text-white" style="margin-bottom:10px"><i class="fa-solid fa-cloud-meatball"></i> New Meal</a>
+<table id="MenuMealtable" class="table table-striped table-bordered" width="100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Meal Name</th>
+            <th>Date of Meal</th>
+            <th>Other Meal Detail</th>
+            <th> </th>
+        </tr>
+    </thead>
+</table>
+
+<link href="~/lib/datatable/datatables-1.12.1/css/datatables.bootstrap5.min.css" rel="stylesheet" />
+
+@section scripts{
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="~/lib/datatable/datatables-1.12.1/js/jquery.datatables.min.js"></script>
+    <script src="~/lib/datatable/datatables-1.12.1/js/datatables.bootstrap5.min.js"></script>
+    <script>
+        var Popup, datatable, IdMenu = parseInt('@ViewBag.Idmenu')
+        $(document).ready(function () {
+            datatable = $("#MenuMealtable").DataTable({
+                "ajax": {
+                    "url": "/MenuMeal/GetMealsperMenuData/?MenuId=" + IdMenu + "",
+                    "type": "GET",
+                    "datatype": "json"
+                },
+                "columns": [
+
+                    { "data": "id" },
+                    {
+                        "data": "mealName",
+                        "width": "250px",
+                        "render": function (data, type, row, meta) {
+                            return '<b><a href="/MenuMeal/MealsperMenuDetails/?MealId=' + row.id + "&MenuId=" + IdMenu +  '" > ' + data + '</b></a >';
+                        }
+                    },
+                    {
+                        "data": "mealdate",
+                        "render":dateFormatter
+                    },
+                    { "data": "other_Menu_Meal_detail" },
+                    {
+                        "data": "id", "render": function (data) {
+                            return "<a class= 'btn btn-primary btn-sm text-white' onclick=location.href='@Url.Action("MealsperMenuEdit","MenuMeal")?MealId=" + data +  "&MenuId=" + IdMenu + "'><i class='fas fa-pencil'></i><b> Edit</b></a>" + "\r\n" +
+                                "<a class= 'btn btn-danger btn-sm text-white' style = 'margin-left:5px' onclick =location.href='@Url.Action("MealsperMenuDelete","MenuMeal")?MealId=" + data + "&MenuId=" + IdMenu + "' > <i class='fa-solid fa-trash-can' > </i><b> Delete</b > </a> ";
+
+                        },
+                        "orderable": false,
+                        "searchable": false,
+                        "width": "150px"
+                    }
+
+                ],
+                "language": {
+
+                    "emptyTable": "No data Found, Please Click On <b>Add New</b> Button"
+                }
+
+            });
+
+        });
+
+
+
+
+
+
+
+        function dateFormatter(data) {
+            var dateAsString = data;
+
+            var yearNumber = dateAsString.substring(0, 4);
+            var monthNumber = dateAsString.substring(5, 7);
+            var dayNumber = dateAsString.substring(8, 10);
+            var dat = dayNumber + "/" + monthNumber + "/" + yearNumber;
+            return dat;
+        }
+
+        
+
+    </script>
+    }
+

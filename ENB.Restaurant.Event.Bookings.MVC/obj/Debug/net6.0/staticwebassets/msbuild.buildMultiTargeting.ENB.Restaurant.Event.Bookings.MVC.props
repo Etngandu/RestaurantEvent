@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ENB.Restaurant.Event.Bookings.MVC.props" />
+</Project>

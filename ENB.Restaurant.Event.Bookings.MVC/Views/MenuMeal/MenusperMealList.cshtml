@@ -1,0 +1,77 @@
+﻿
+<div class="alert alert-primary" role="alert">
+    <h2><strong>List Meal Menu : @ViewBag.Message <i class="fa-solid fa-wheat-awn"></i></strong></h2>
+</div>
+
+<a asp-action="MenusperMealCreate" id="addCustomer" asp-controller="MenuMeal" asp-route-MealId="@ViewBag.Idmeal" class="btn btn-success text-white" style="margin-bottom:10px"><i class="fa-solid fa-list"></i> New Menu</a>
+<table id="MenuMealtable" class="table table-striped table-bordered" width="100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Menu Name</th>           
+            <th>Other Menu Detail</th>
+            <th> </th>
+        </tr>
+    </thead>
+</table>
+
+<link href="~/lib/datatable/datatables-1.12.1/css/datatables.bootstrap5.min.css" rel="stylesheet" />
+
+@section scripts{
+        <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="~/lib/datatable/datatables-1.12.1/js/jquery.datatables.min.js"></script>
+        <script src="~/lib/datatable/datatables-1.12.1/js/datatables.bootstrap5.min.js"></script>
+        <script>
+            var Popup, datatable, IdMeal = parseInt('@ViewBag.Idmeal')
+            $(document).ready(function () {
+                datatable = $("#MenuMealtable").DataTable({
+                    "ajax": {
+                        "url": "/MenuMeal/GetMenusperMealData/?MealId=" + IdMeal + "",
+                        "type": "GET",
+                        "datatype": "json"
+                    },
+                    "columns": [
+
+                        { "data": "id" },
+                        {
+                            "data": "menuName",
+                            "width": "250px",
+                            "render": function (data, type, row, meta) {
+                                return '<b><a href="/MenuMeal/MealsperMenuDetails/?MenuId=' + row.id + "&MealId=" + IdMeal +  '" > ' + data + '</b></a >';
+                            }
+                        },                        
+                        { "data": "other_Menu_Meal_detail" },
+                        {
+                            "data": "id", "render": function (data) {
+                                return "<a class= 'btn btn-primary btn-sm text-white' onclick=location.href='@Url.Action("MenusperMealEdit","MenuMeal")?MenuId=" + data +  "&MealId=" + IdMeal + "'><i class='fas fa-pencil'></i><b> Edit</b></a>" + "\r\n" +
+                                    "<a class= 'btn btn-danger btn-sm text-white' style = 'margin-left:5px' onclick =location.href='@Url.Action("MenusperMealDelete","MenuMeal")?MenuId=" + data + "&MealId=" + IdMeal + "' > <i class='fa-solid fa-trash-can' > </i><b> Delete</b > </a> ";
+
+                            },
+                            "orderable": false,
+                            "searchable": false,
+                            "width": "150px"
+                        }
+
+                    ],
+                    "language": {
+
+                        "emptyTable": "No data Found, Please Click On <b>Add New</b> Button"
+                    }
+
+                });
+
+            });
+
+
+
+
+
+
+
+            
+
+
+
+        </script>
+    }
+
